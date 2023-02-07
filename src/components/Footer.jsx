@@ -1,6 +1,7 @@
 import React from "react";
 import { AiOutlineInstagram } from "react-icons/ai";
 import { FaFacebookF, FaGithub, FaTiktok, FaTwitter } from "react-icons/fa";
+
 import ThemeToggle from "./ThemeToggle";
 
 const Footer = () => {
@@ -49,11 +50,22 @@ const Footer = () => {
                 </form>
               </div>
               <div className="flex py-4 justify-between text-accent">
-                <AiOutlineInstagram />
-                <FaTiktok />
-                <FaTwitter />
-                <FaFacebookF />
-                <FaGithub />
+                <a href="http://instagram.com">
+                  <AiOutlineInstagram />
+                </a>
+
+                <a href="http://tiktok.com">
+                  <FaTiktok />
+                </a>
+                <a href="http://twitter.com">
+                  <FaTwitter />
+                </a>
+                <a href="http://facebook.com">
+                  <FaFacebookF />
+                </a>
+                <a href="https://github.com/Jun0613-spec/cryptoapp-clone">
+                  <FaGithub />
+                </a>
               </div>
             </div>
           </div>
